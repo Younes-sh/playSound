@@ -5,7 +5,8 @@ import MusicVideo from '../pages/MusicVideo';
 import Podcasts from '../pages/Podcasts';
 import Radio from '../pages/Radio';
 import LoinRegister from '../pages/NestedPages/LoinRegister';
-
+import Login from '../pages/loginRegister/Login';
+import Register from '../pages/loginRegister/Register';
 
 
 const routes = [
@@ -20,3 +21,5 @@ const routes = [
         { path:'/loginregister/register' , element:<Register />},
     ]},
 ]
+
+export default routes;

@@ -156,7 +156,7 @@ export default function PrimarySearchAppBar() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" style={{background:'transparent' , boxShadow:'none'}}>
+      <AppBar position="static" style={{background:'transparent' , boxShadow:'none'}} className='p-3'>
         <Toolbar>
           {/* <IconButton
             size="large"

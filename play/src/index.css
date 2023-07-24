@@ -18,7 +18,13 @@ code {
   display: block;
   border-radius: 4px;
 }
+.Nav  a:hover {
+  background-color: rgba(117, 124, 124, 0.664);
+  color: aliceblue;
+  border-radius: 12px;
+}
 .Nav .active {
   background-color: rgba(0, 255, 255, 0.664);
   color: aliceblue;
+  border-radius: 12px;
 }

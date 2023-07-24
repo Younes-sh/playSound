@@ -1,5 +1,5 @@
 import LandingPage from '../pages/LandingPage';
-import Home from '../pages/Home';
+import Discover from '../pages/Discover';
 import Library from '../pages/Library';
 import MusicVideo from '../pages/MusicVideo';
 import Podcasts from '../pages/Podcasts';
@@ -11,7 +11,7 @@ import Register from '../pages/loginRegister/Register';
 
 const routes = [
     { path:'/' , element:<LandingPage />},
-    { path:'/home' , element:<Home />},
+    { path:'/discover' , element:<Discover />},
     { path:'/library' , element:<Library />},
     { path:'/musicvideo' , element:<MusicVideo />},
     { path:'/podcasts' , element:<Podcasts />},

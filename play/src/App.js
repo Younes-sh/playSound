@@ -5,7 +5,14 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Routing/>
+        <div className='SideLeft'></div>
+        <div className='main'>
+          <Routing/>
+        </div>
+        <div className='SideRight'>
+
+        </div>
+        
       </BrowserRouter>
     </div>
   );
